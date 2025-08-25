@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1,h2{
+            color: blue;
+            font-size: 2em;
+            text-align: center;
+            margin-top: 50px;
+            background-color: yellow;
+        }
+        body {
+            background-color: #dc7d7d;
+            font-family: Arial, sans-serif;
+        }
+        .RS {
+            color: rgb(211, 80, 178);
+            font-size: 1.5em;
+            text-align: center;
+            margin-top: 20px;
+            background-color: rgb(164, 212, 130);
+        }
+        /* #BS {
+            color: rgb(41, 49, 49);
+            font-size: 1.5em;
+            text-align: center;
+            margin-top: 20px;
+            background-color: rgb(227, 255, 100);
+        } */
+    </style>
+</head>
+<body >
+    <h1>Bhupendra Singh</h1>
+    <h2>Sheetal Chaudhary</h2>
+    <h1 class="RS"> Ravi Don</h1>
+    <h2 id="BS">Lokendra Pandit</h2>
+
+    <button onclick="myclick()">Click Me</button>
+    
+    <script>
+        function myclick() {
+           const idelement = document.getElementById("BS");
+           idelement.style.color = "red";
+        }
+        </script>
+</body>
+</html>

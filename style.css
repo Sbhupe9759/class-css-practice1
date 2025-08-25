@@ -1,0 +1,42 @@
+/* h1{
+    color: blue;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 20px;
+    
+}
+h1:hover{
+    color: orange;
+}
+p{
+    color: green;
+    font-size: 16px;
+    text-align: justify;
+    margin: 20px;
+    
+}
+p:hover{
+    color: red;
+}
+#mydiv{
+   color: red;
+}
+.myclass{
+    color: brown;
+} */
+
+/* *{
+    color: purple;
+} */
+h1,h2{
+    color: rgb(138, 186, 24);
+}
+.myclass{
+    color: brown;
+}
+#mydiv{
+    color: rgb(78, 168, 207);
+} 
+p{
+    color: green;
+}  

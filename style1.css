@@ -1,0 +1,10 @@
+fieldset{
+    color: rgb(224, 102, 147);
+    width: 200px;
+    border: 2px solid rgb(77, 166, 202);
+}
+job{
+    color: rgb(77, 166, 202);
+    width: 200px;
+    border: 2px solid rgb(224, 102, 147);
+}
