@@ -1,0 +1,14 @@
+h1,h2,h3{
+    color: blue;
+}
+#myid{
+    color: green;
+}
+.container{
+   
+    background-color: lightpink;
+}
+/* .header{
+    text-align: center;
+
+} */
